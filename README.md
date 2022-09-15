@@ -27,6 +27,8 @@
     <a href="https://github.com/Glutius/iee-ihu-api-example/issues">Report Bug</a>
     ·
     <a href="https://github.com/Glutius/iee-ihu-api-example/issues">Request Feature</a>
+    ·
+    <a href="https://login.iee.ihu.gr/">API Docs</a>
   </p>
 </div>
 
