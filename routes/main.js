@@ -44,9 +44,9 @@ router.get('/profile', async (req, res) => {
 });
   
 router.get('/announcements', async (req, res) => {
-	res.setHeader('Content-Type', 'text/html');
+	res.setHeader('Content-Type', 'text/html; charset=utf-8');
 	res.write(`<h2>Last Announcement</h2>`);
-
+	
 	if (utils.isAuthorized(req.sessionID)) {
 		const accessToken = await utils.getAccessToken(req.sessionID);
 		const announcements = await utils.getAnnouncements(accessToken);

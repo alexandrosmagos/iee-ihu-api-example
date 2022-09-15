@@ -97,7 +97,7 @@ const getAnnouncements = async (accessToken) => {
 		const announcements = await axios.get('https://api.iee.ihu.gr/announcements?pageSize=1', config).then((res) => {
 			return res.data;
 		});
-		
+		console.log(announcements[0]);
 		return announcements;
 	
 	} catch (e) {
