@@ -20,11 +20,11 @@ const exchangeForTokens = async (userId, exchangeProof) => {
 		}).then(function(res) {
 			return res.data;
 		});
-	
+		
 		// Usually, this token data should be persisted in a database and associated with
 		// a user identity.
 		refreshTokenStore[userId] = token.refresh_token;
-		accessTokenCache.set(userId, token.access_token, Math.round(token.expires_in * 0.75));
+		accessTokenCache.set(userId, token.access_token, 110); //token expires after 2 minutes
   
 		console.log(chalk.green('       > Received an access token and refresh token'));
 		return token.access_token;
@@ -39,8 +39,7 @@ const refreshAccessToken = async (userId) => {
 		grant_type: 'refresh_token',
 		client_id: process.env.CLIENT_ID,
 		client_secret: process.env.CLIENT_SECRET,
-		redirect_uri: process.env.REDIRECT_URI,
-		refresh_token: refreshTokenStore[userId]
+		code: refreshTokenStore[userId]
 	};
 	return await exchangeForTokens(userId, refreshTokenProof);
 };
@@ -78,9 +77,9 @@ const getProfile = async (accessToken) => {
 	
 		return profile;
   
-	} catch (e) {
+	} catch (err) {
 		console.error(chalk.red('  > Unable to retrieve profile'));
-		return JSON.parse(e.response.body);
+		return err;
 	}
 };
   
