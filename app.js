@@ -49,11 +49,11 @@ const authUrl =
 // Redirect the user from the installation page to the authorization URL
 app.get('/auth', (req, res) => {
 	console.log('');
-	console.log("=== Initiating OAuth 2.0 protocol with IEE IHU's Apps ===");
+	console.log("=== Initiating OAuth 2.0 protocol with IHU's Apps ===");
 	console.log('');
 	console.log("===> Step 1: Redirecting user to your app's OAuth URL");
 	res.redirect(authUrl);
-	console.log('===> Step 2: User is being prompted for consent by Apps');
+	console.log('===> Step 2: User is being prompted for consent by APPS');
 });
 
 // Step 2
