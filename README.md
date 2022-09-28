@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Glutius/iee-ihu-api-example">
+  <a href="https://github.com/alexandrosmagos/iee-ihu-api-example">
     <img src="img/logo.jpg" alt="Logo" width="300" height="100">
   </a>
 
@@ -24,9 +24,9 @@
   <p align="center">
     A simple API example using International Hellenic University's API in NodeJS.
     <br />
-    <a href="https://github.com/Glutius/iee-ihu-api-example/issues">Report Bug</a>
+    <a href="https://github.com/alexandrosmagos/iee-ihu-api-example/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Glutius/iee-ihu-api-example/issues">Request Feature</a>
+    <a href="https://github.com/alexandrosmagos/iee-ihu-api-example/issues">Request Feature</a>
     ·
     <a href="https://login.iee.ihu.gr/">API Docs</a>
   </p>
@@ -116,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Glutius/iee-ihu-api-example.git
+   git clone https://github.com/alexandrosmagos/iee-ihu-api-example.git
    ```
 2. Install NPM packages
    ```sh
@@ -151,7 +151,7 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the [open issues](https://github.com/Glutius/iee-ihu-api-example/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/alexandrosmagos/iee-ihu-api-example/issues) for a full list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -190,16 +190,16 @@ By Using this project, you agree to the following:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Glutius/iee-ihu-api-example.svg?style=for-the-badge
-[contributors-url]: https://github.com/Glutius/iee-ihu-api-example/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Glutius/iee-ihu-api-example.svg?style=for-the-badge
-[forks-url]: https://github.com/Glutius/iee-ihu-api-example/network/members
-[stars-shield]: https://img.shields.io/github/stars/Glutius/iee-ihu-api-example.svg?style=for-the-badge
-[stars-url]: https://github.com/Glutius/iee-ihu-api-example/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Glutius/iee-ihu-api-example.svg?style=for-the-badge
-[issues-url]: https://github.com/Glutius/iee-ihu-api-example/issues
-[license-shield]: https://img.shields.io/github/license/Glutius/iee-ihu-api-example.svg?style=for-the-badge
-[license-url]: https://github.com/Glutius/iee-ihu-api-example/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/alexandrosmagos/iee-ihu-api-example.svg?style=for-the-badge
+[contributors-url]: https://github.com/alexandrosmagos/iee-ihu-api-example/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/alexandrosmagos/iee-ihu-api-example.svg?style=for-the-badge
+[forks-url]: https://github.com/alexandrosmagos/iee-ihu-api-example/network/members
+[stars-shield]: https://img.shields.io/github/stars/alexandrosmagos/iee-ihu-api-example.svg?style=for-the-badge
+[stars-url]: https://github.com/alexandrosmagos/iee-ihu-api-example/stargazers
+[issues-shield]: https://img.shields.io/github/issues/alexandrosmagos/iee-ihu-api-example.svg?style=for-the-badge
+[issues-url]: https://github.com/alexandrosmagos/iee-ihu-api-example/issues
+[license-shield]: https://img.shields.io/github/license/alexandrosmagos/iee-ihu-api-example.svg?style=for-the-badge
+[license-url]: https://github.com/alexandrosmagos/iee-ihu-api-example/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/alexandrosmagos/
 [product-screenshot]: images/screenshot.png
